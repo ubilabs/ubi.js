@@ -1,0 +1,23 @@
+{
+  "name": "ubi",
+  "version": "0.0.0",
+  "description": "Ubilabs Geo JavaScript Library",
+  "main": "dist/ubi.js",
+  "author": {
+    "name": "Martin Kleppe",
+    "email": "kleppe@ubilabs.net"
+  },
+  "repository": {
+    "url": "https://github.com/ubilabs/ubi-js.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
