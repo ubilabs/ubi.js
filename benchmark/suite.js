@@ -29,6 +29,20 @@ suite.add('[lat, lng]', function() {
   ];
 });
 
+suite.add('Float64Array', function() {
+  var p = new Float64Array([
+    Math.random(),
+    Math.random()
+  ]);
+});
+
+suite.add('Float32Array', function() {
+  var p = new Float32Array([
+    Math.random(),
+    Math.random()
+  ]);
+});
+
 var tests = {
 
   'this.x': function() {

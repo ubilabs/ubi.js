@@ -2,26 +2,35 @@
 
 Node.js v0.10.29
 
->  {lat, lng}              x 45,113,776 ops/sec ±7.49% (69 runs sampled)
->  [lat, lng]              x 44,985,740 ops/sec ±5.44% (75 runs sampled)
->  this.x                  x 27,652,023 ops/sec ±1.58% (82 runs sampled)
->  this[0]                 x  7,354,062 ops/sec ±0.60% (91 runs sampled)
->  this["x"]               x 27,459,041 ops/sec ±2.29% (83 runs sampled)
->  this[Point.X = "x"]     x  3,819,149 ops/sec ±2.00% (57 runs sampled)
->  this[Point.X = "0"]     x  2,701,053 ops/sec ±1.72% (76 runs sampled)
->  this[Point.X = 0]       x  7,115,258 ops/sec ±0.75% (95 runs sampled)
->  this.coords = [x, y]    x 25,356,121 ops/sec ±1.41% (89 runs sampled)
->  this.coords = arguments x 22,915,119 ops/sec ±1.38% (85 runs sampled)
+```
+{lat, lng}              x 46,270,957 ops/sec ±7.52% (67 runs sampled)
+[lat, lng]              x 44,391,656 ops/sec ±5.30% (75 runs sampled)
+Float64Array            x    138,336 ops/sec ±2.15% (82 runs sampled)
+Float32Array            x    137,204 ops/sec ±2.00% (86 runs sampled)
+this.x                  x 27,937,238 ops/sec ±2.76% (82 runs sampled)
+this[0]                 x  7,124,366 ops/sec ±0.84% (91 runs sampled)
+this["x"]               x 25,621,212 ops/sec ±2.66% (77 runs sampled)
+this[Point.X = "x"]     x  4,017,639 ops/sec ±0.81% (67 runs sampled)
+this[Point.X = "0"]     x  4,363,098 ops/sec ±0.53% (95 runs sampled)
+this[Point.X = 0]       x  6,940,152 ops/sec ±0.80% (92 runs sampled)
+this.coords = [x, y]    x 23,640,556 ops/sec ±2.33% (83 runs sampled)
+this.coords = arguments x 19,271,931 ops/sec ±1.38% (87 runs sampled)
+```
 
 Chrome 37
 
-> {lat, lng}               x 43,481,943 ops/sec ±0.90% (94 runs sampled)
-> [lat, lng]               x 42,429,432 ops/sec ±0.93% (92 runs sampled)
-> this.x                   x 26,234,546 ops/sec ±4.41% (65 runs sampled)
-> this[0]                  x  3,970,499 ops/sec ±0.96% (92 runs sampled)
-> this["x"]                x 28,866,523 ops/sec ±0.87% (93 runs sampled)
-> this[Point.X = "x"]      x 24,229,672 ops/sec ±0.86% (89 runs sampled)
-> this[Point.X = "0"]      x  2,754,183 ops/sec ±0.89% (94 runs sampled)
-> this[Point.X = 0]        x  3,920,693 ops/sec ±0.94% (91 runs sampled)
-> this.coords = [x, y]     x 28,300,431 ops/sec ±1.06% (78 runs sampled)
-> this.coords = arguments  x 21,834,303 ops/sec ±1.15% (93 runs sampled)
+```
+{lat, lng}              x 44,629,757 ops/sec ±0.78% (95 runs sampled)
+[lat, lng]              x 43,349,852 ops/sec ±0.67% (95 runs sampled)
+Float64Array            x  3,135,901 ops/sec ±0.70% (93 runs sampled)
+Float32Array            x  3,107,350 ops/sec ±0.71% (94 runs sampled)
+this.x                  x 24,466,811 ops/sec ±0.73% (95 runs sampled)
+this[0]                 x  3,938,281 ops/sec ±0.70% (92 runs sampled)
+this["x"]               x 25,682,593 ops/sec ±0.66% (81 runs sampled)
+this[Point.X = "x"]     x 20,731,120 ops/sec ±2.28% (91 runs sampled)
+this[Point.X = "0"]     x  2,729,310 ops/sec ±0.78% (92 runs sampled)
+this[Point.X = 0]       x  3,912,656 ops/sec ±0.72% (94 runs sampled)
+this.coords = [x, y]    x 23,634,167 ops/sec ±0.78% (84 runs sampled)
+this.coords = arguments x 18,039,964 ops/sec ±0.79% (95 runs sampled)
+```
+
