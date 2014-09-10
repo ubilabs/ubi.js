@@ -12,15 +12,23 @@
     "type": "git"
   },
   "license": "MIT",
-  "dependencies": {},
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "app/bower_components"
   ],
   "devDependencies": {
     "benchmark": "~1.0.0"
-  }
+  },
+  "homepage": "https://github.com/ubilabs/ubi.js",
+  "authors": [
+    "Martin Kleppe Ubilabs <kleppe@ubilabs.net>",
+    "Frank Mecklenburg Ubilabs <mecklenburg@ubilabs.net>"
+  ],
+  "moduleType": [
+    "node"
+  ]
 }
