@@ -9,7 +9,7 @@
     "email": "kleppe@ubilabs.net"
   },
   "repository": {
-    "url": "https://github.com/ubilabs/ubi-js.git",
+    "url": "https://github.com/ubilabs/ubi.js.git",
     "type": "git"
   },
   "license": "MIT",
