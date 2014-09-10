@@ -1,5 +1,5 @@
 {
-  "name": "ubi",
+  "name": "ubi.js",
   "version": "0.0.0",
   "description": "Ubilabs Geo JavaScript Library",
   "main": "dist/ubi.js",
