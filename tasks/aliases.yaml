@@ -7,3 +7,6 @@ build:
   - lintspaces:lib
   - concat
   - uglify
+
+build:doc
+  - jsdoc
