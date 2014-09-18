@@ -15,14 +15,12 @@ build:docs:
 prerelease:
   - build:docs
   - gitcommit:docs
-  # - git add docs stuff
-  # - changelog
-  # - git add changelog stuff
-  # - build
-  # - git add build stuff
+  - build
+  - gitcommit:build
 
 updateVersion:patch:
   - prerelease
+  # TODO: Changelog creation
   - release:patch
 
 updateVersion:minor:
