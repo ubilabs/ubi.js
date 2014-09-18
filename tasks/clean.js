@@ -1,3 +1,4 @@
 module.exports = {
-  dist: 'dist'
+  default: 'dist',
+  docs: 'docs'
 };
