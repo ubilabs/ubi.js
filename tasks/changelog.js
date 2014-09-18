@@ -1,5 +1,6 @@
 module.exports = {
   options: {
-    dest: 'CHANGELOG.md'
+    dest: 'CHANGELOG.md',
+    editor: 'subl -w'
   }
-}
+};

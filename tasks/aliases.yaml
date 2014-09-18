@@ -2,11 +2,33 @@ default:
   - build
 
 build:
-  - clean
+  - clean:default
   - jshint:lib
   - lintspaces:lib
   - concat
   - uglify
 
-build:doc
+build:docs:
+  - clean:docs
   - jsdoc
+
+prerelease:
+  - build:docs
+  - gitcommit:docs
+  # - git add docs stuff
+  # - changelog
+  # - git add changelog stuff
+  # - build
+  # - git add build stuff
+
+updateVersion:patch:
+  - prerelease
+  - release:patch
+
+updateVersion:minor:
+  - prerelease
+  - release:minor
+
+updateVersion:major:
+  - prerelease
+  - release:major
