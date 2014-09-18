@@ -21,7 +21,8 @@ module.exports = function (grunt) {
     configPath: path.join(process.cwd(), 'tasks'),
     config: config,
     jitGrunt: {
-      benchmark: 'benchmark/suite.js'
+      changelog: 'grunt-conventional-changelog',
+      gitcommit: 'grunt-git'
     }
   });
 };

@@ -1,4 +1,7 @@
 module.exports = {
-  email: 'mecklenburg@ubilabs.net',
-  name: 'Frank Mecklenburg'
+  options: {
+    add: false,
+    commit: false,
+    npm: false
+  }
 };
